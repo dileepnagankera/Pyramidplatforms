@@ -1,0 +1,244 @@
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar .logo {
+  padding-left: 70px;
+  width: 500px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li a {
+  padding-left: 25px;
+  padding-top: 35px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#home {
+  padding: 200px;
+  background: url("./img/img2.jpg") no-repeat center center/cover;
+  color: #fff;
+}
+
+#home .container .row {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-between;
+}
+.container .row .h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.forum {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#home-box .container .row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  margin: 5px;
+  grid-gap: 2rem;
+}
+
+#home-box .container .row .col-md-4 {
+  background: burlywood;
+  margin: 20px;
+  padding: 2px;
+}
+.container-btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.container-btn button {
+  background-color: blue;
+  font-size: 2rem;
+  border-radius: 0.6rem;
+}
+.dsn {
+  background-color: brown;
+}
+.ha {
+  text-align: center;
+}
+
+.Brokers {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.da {
+  text-align: center;
+}
+
+#card-box .container .row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20;
+  margin: 5px;
+  grid-gap: 2rem;
+}
+
+#card-box .container .row p {
+  text-align: center;
+}
+
+#card-box .container .row .col-md-4 {
+  background: burlywood;
+  margin: 20px;
+  padding: 2px;
+}
+
+#card-box .container .row .col-md-4 button {
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+#card-box .container .row .col-md-4 button {
+  background-color: blue;
+
+  border-radius: 0.6rem;
+}
+
+#global {
+  background: url("./img/img4.webp");
+  text-align: center;
+  font-size: 20px;
+  height: 100vh;
+  color: white;
+  font-size: 1.5rem;
+}
+#global .container {
+  padding: 100px;
+}
+.cyber-btn button {
+  background: tomato;
+  font-size: 2rem;
+}
+.uor {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#blog-box .container .row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5px;
+  grid-gap: 2rem;
+}
+
+#blog-box .container .row .col-md-4 {
+  margin: 20px;
+  padding: 2px;
+}
+
+.footer-info {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+#news .container .row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5px;
+  grid-gap: 2rem;
+  padding: 20px;
+}
+
+#news .container .row .col-lg-8 {
+  margin: 20px;
+  padding: 2px;
+}
+
+#terms .container {
+  padding: 80px;
+}
+.say {
+  background: url("./img/img12.jpg") no-repeat center center/cover;
+  height: 50vh;
+  text-align: center;
+  color: white;
+}
+
+.sa {
+  padding: 150px;
+  font-size: 3rem;
+}
+
+#sayhello {
+  background: white;
+}
+
+#sayhello .container .row {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5px;
+  grid-gap: 2rem;
+  padding: 20px;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+#sayhello .container .row .col-md-8 {
+  margin: 20px;
+  padding: 2px;
+}
+
+#sayhello .container .row .col-md-4 {
+  background: blue;
+  text-align: center;
+  color: white;
+}
+
+.send {
+  background: blue;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.form .form-container {
+  display: flex;
+}
+
+.form .form-container .form-group {
+  margin: 25px;
+}
+
+.form .form-container .form-group input {
+  padding: 15px;
+  border-color: green;
+  border-radius: 10px;
+}
+
+.form .form-container textarea {
+  padding: 15px;
+  width: 420px;
+  border-color: green;
+  border-radius: 10px;
+}
+
+.form .form-container .form-group button {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 15px;
+  width: 100px;
+  background-color: blue;
+  border-color: white;
+  border-radius: 10px;
+}
